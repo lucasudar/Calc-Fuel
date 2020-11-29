@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuel Calc</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+
+    </header>
+<main>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid">
+      <div class="block ml-5">
+        <div class="col-lg-7 col-md-11 col-xs-6">
+          <h1 class="display-4">Калькулятор расхода топлива</h1>
+          <p class="lead">
+            Рассчет расхода топлива автомобиля за пройденное расстояние.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block ml-5 pl-4">
+    <div class="col-sm-5">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Калькулятор расхода топлива</h5>
+          <p class="card-text">Узнайте сколько топлива вы израсходуете в поездке зная расстояние, которое планируете проехать, а также средний расход топлива вашего автомобиля.</p>
+
+          <form>
+            <div class="form-group">
+              <label for="inputСonsumption" class="col-sm-2 col-form-label"><b>Расход топлива</b></label>
+              <div class="input-group mb-3">
+                <input type="number" class="form-control" id="inputСonsumption">
+                <div class="input-group-append">
+                  <span class="input-group-text">л / 100 км</span>
+                  </div>
+              </div>
+              </div>
+            <div class="form-group">
+              <label for="inputDistance" class="col-sm-2 col-form-label"><b>Расстояние</b></label>
+              <div class="input-group mb-3">
+                <input type="number" class="form-control" id="inputDistance">
+                <div class="input-group-append">
+                  <span class="input-group-text">км</span>
+              </div>
+              </div>
+              </div>
+              <div class="form-group">
+                <label for="inputFuelCost" class="col-sm-2 col-form-label"><b>Стоимость топлива</b></label>
+                <div class="input-group mb-3">
+                  <input type="number" class="form-control" id="inputFuelCost">
+                  <div class="input-group-append">
+                    <span class="input-group-text">руб / л</span>
+                  </div>
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="outputTotalConsumption" class="col-sm-2 col-form-label"><b>Игото расход топлива</b></label>
+              <div class="input-group mb-3">
+                <input type="number" class="form-control" id="outputTotalConsumption" disabled>
+                <div class="input-group-append">
+                  <span class="input-group-text">л / км</span>
+                </div>
+              </div>
+          </div>
+          <div class="form-group">
+            <label for="outputTotalCost" class="col-sm-2 col-form-label"><b>Итоговая стоимость</b></label>
+            <div class="input-group mb-3">
+              <input type="number" class="form-control" id="outputTotalCost" disabled>
+              <div class="input-group-append">
+                <span class="input-group-text">руб</span>
+              </div>
+            </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</form>
+
+
+</main>
+
+
+
+    <footer>
+
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
